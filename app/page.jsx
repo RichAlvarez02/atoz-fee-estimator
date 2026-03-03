@@ -73,8 +73,16 @@ export default function Page() {
   return (
     <main style={{ maxWidth: 980, margin: "0 auto", padding: "28px 18px 60px" }}>
       <header style={{ display: "flex", gap: 16, alignItems: "flex-start", justifyContent: "space-between", flexWrap: "wrap" }}>
-        <div>
-          <h1 style={{ fontSize: 30, lineHeight: 1.1, margin: 0 }}>Fee Estimator</h1>
+       <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+  <img
+    src="/logo.png"
+    alt="A to Z Tax Firm"
+    style={{ height: 60, width: "auto" }}
+  />
+  <div>
+    <h1 style={{ fontSize: 30, lineHeight: 1.1, margin: 0 }}>
+      Fee Estimator
+    </h1>
           <p style={{ marginTop: 10, marginBottom: 0, color: "#444", maxWidth: 720 }}>
             Add the forms/services you have and quantities (example: Schedule C = 2). This is a quick estimate, not a final quote.
           </p>
