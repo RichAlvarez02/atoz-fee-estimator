@@ -1,187 +1,77 @@
 {
   "categories": [
     {
+      "id": "individual-tax-return",
       "name": "Individual Tax Return",
       "disclaimer": "Foreign elements are additional and quoted separately based on the specific circumstances involved.",
       "groups": [
         {
           "name": "Individual",
           "items": [
-            {
-              "id": "ind-1040-base-mfj-hoh",
-              "label": "1040 Base Return (MFJ / HOH) — Select One",
-              "price": 250.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-1040-base-single-mfs",
-              "label": "1040 Base Return (Single / MFS) — Select One",
-              "price": 150.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-schedule-a",
-              "label": "Schedule A — Select One",
-              "price": 80.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-schedule-c",
-              "label": "Schedule C",
-              "price": 300.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-schedule-e",
-              "label": "Schedule E",
-              "price": 150.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-k1",
-              "label": "K-1",
-              "price": 125.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-sale-of-home",
-              "label": "Sale of Home",
-              "price": 350.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-sale-of-real-estate-not-home",
-              "label": "Sale of real estate (not home you live in)",
-              "price": 450.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-dependents",
-              "label": "Dependents",
-              "price": 50.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-child-tax-credit",
-              "label": "Child Tax Credit",
-              "price": 75.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-childcare-credit",
-              "label": "Childcare Credit",
-              "price": 75.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-single-member-llc",
-              "label": "Single Member LLC",
-              "price": 450.0,
-              "unit": "each"
-            },
-            {
-              "id": "ind-addl-state-returns",
-              "label": "Additional state returns needed (first one included)",
-              "price": 100.0,
-              "unit": "each"
-            }
+            { "id": "ind-1040-base-mfj-hoh", "label": "1040 Base Return (MFJ / HOH) — Select One", "price": 250.0, "unit": "each" },
+            { "id": "ind-1040-base-single-mfs", "label": "1040 Base Return (Single / MFS) — Select One", "price": 150.0, "unit": "each" },
+
+            { "id": "ind-schedule-a", "label": "Schedule A — Select One", "price": 80.0, "unit": "each" },
+
+            { "id": "ind-schedule-c", "label": "Schedule C", "price": 300.0, "unit": "each" },
+            { "id": "ind-schedule-e", "label": "Schedule E", "price": 150.0, "unit": "each" },
+            { "id": "ind-k1", "label": "K-1", "price": 125.0, "unit": "each" },
+
+            { "id": "ind-sale-of-home", "label": "Sale of Home", "price": 350.0, "unit": "each" },
+            { "id": "ind-sale-of-real-estate-not-home", "label": "Sale of real estate (not home you live in)", "price": 450.0, "unit": "each" },
+
+            { "id": "ind-dependents", "label": "Dependents", "price": 50.0, "unit": "each" },
+            { "id": "ind-child-tax-credit", "label": "Child Tax Credit", "price": 75.0, "unit": "each" },
+            { "id": "ind-childcare-credit", "label": "Childcare Credit", "price": 75.0, "unit": "each" },
+
+            { "id": "ind-single-member-llc", "label": "Single Member LLC", "price": 450.0, "unit": "each" },
+
+            { "id": "ind-addl-state-returns", "label": "Additional state returns needed (first one included)", "price": 100.0, "unit": "each" }
           ]
         }
       ]
     },
     {
+      "id": "entities-tax-returns",
       "name": "Entities Tax Returns",
       "disclaimer": "Foreign elements are additional and quoted separately based on the specific circumstances involved.",
       "groups": [
         {
           "name": "Entities",
           "items": [
-            {
-              "id": "ent-zero-inactive",
-              "label": "Any entity in ZERO (inactive, no numbers) — Select One",
-              "price": 395.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-1120s",
-              "label": "S-Corp Return (1120-S) — Starts at $995 — Select One",
-              "price": 995.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-1065",
-              "label": "Partnership Return (1065) — Starts at $995 — Select One",
-              "price": 995.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-1120",
-              "label": "C-Corp Return (1120) — Starts at $995 — Select One",
-              "price": 995.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-schedule-l-balance-sheet",
-              "label": "Balance Sheet / Schedule L (Required when gross receipts exceed $250,000 or total assets exceed $250,000)",
-              "price": 250.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-rental-8825",
-              "label": "Rental Property (Form 8825)",
-              "price": 150.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-sale-asset-4797",
-              "label": "Sale of Asset (Form 4797)",
-              "price": 450.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-additional-k1",
-              "label": "Additional K-1 (entity)",
-              "price": 125.0,
-              "unit": "each"
-            },
-            {
-              "id": "ent-addl-state-returns",
-              "label": "Additional state returns (1st one included)",
-              "price": 150.0,
-              "unit": "each"
-            }
+            { "id": "ent-zero-inactive", "label": "Any entity in ZERO (inactive, no numbers) — Select One", "price": 395.0, "unit": "each" },
+
+            { "id": "ent-1120s", "label": "S-Corp Return (1120-S) — Starts at $995 — Select One", "price": 995.0, "unit": "each" },
+            { "id": "ent-1065", "label": "Partnership Return (1065) — Starts at $995 — Select One", "price": 995.0, "unit": "each" },
+            { "id": "ent-1120", "label": "C-Corp Return (1120) — Starts at $995 — Select One", "price": 995.0, "unit": "each" },
+
+            { "id": "ent-schedule-l-balance-sheet", "label": "Balance Sheet / Schedule L (Required when gross receipts exceed $250,000 or total assets exceed $250,000)", "price": 250.0, "unit": "each" },
+
+            { "id": "ent-rental-8825", "label": "Rental Property (Form 8825)", "price": 150.0, "unit": "each" },
+            { "id": "ent-sale-asset-4797", "label": "Sale of Asset (Form 4797)", "price": 450.0, "unit": "each" },
+
+            { "id": "ent-additional-k1", "label": "Additional K-1 (entity)", "price": 125.0, "unit": "each" },
+
+            { "id": "ent-addl-state-returns", "label": "Additional state returns (1st one included)", "price": 150.0, "unit": "each" }
           ]
         }
       ]
     },
     {
+      "id": "representation",
       "name": "Representation",
       "groups": [
         {
           "name": "Tax Representation",
           "items": [
-            {
-              "id": "rep-base-fee",
-              "label": "Representation (Base Fee) — Select One",
-              "price": 450.0,
-              "unit": "each"
-            },
-            {
-              "id": "rep-hours",
-              "label": "Additional Representation Hours",
-              "price": 250.0,
-              "unit": "hour"
-            }
+            { "id": "rep-base-fee", "label": "Representation (Base Fee) — Select One", "price": 450.0, "unit": "each" },
+            { "id": "rep-hours", "label": "Additional Representation Hours", "price": 250.0, "unit": "hour" }
           ]
         }
       ]
     }
   ],
-  "surcharges": [
-    { "id": "cc", "label": "Credit card charge (3%)", "rate": 0.03 },
-    { "id": "amended", "label": "Amended / Past Year surcharge (25%)", "rate": 0.25 },
-    { "id": "adjust", "label": "Adjustment (+/-) (5%)", "rate": 0.05 }
-  ],
+  "surcharges": [],
   "notes": [
     "All estimates are non-binding and subject to change based on complexity and final review.",
     "Select one base return type for individual or entity filings.",
