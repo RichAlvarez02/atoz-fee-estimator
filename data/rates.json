@@ -1,34 +1,49 @@
-{
-  "groups": [
+={
+  "categories": [
     {
       "name": "Individual Tax Return",
-      "items": [
-        { "id": "ind-1040-base", "label": "1040 Base Return", "price": 250.0, "unit": "each" },
-        { "id": "ind-schedule-c", "label": "Schedule C", "price": 300.0, "unit": "each" },
-        { "id": "ind-k1", "label": "K-1", "price": 125.0, "unit": "each" },
-        { "id": "ind-state-return", "label": "State Return", "price": 100.0, "unit": "each" }
+      "groups": [
+        {
+          "name": "Individual",
+          "items": [
+            { "id": "ind-1040-base", "label": "1040 Base Return", "price": 250.0, "unit": "each" },
+            { "id": "ind-schedule-c", "label": "Schedule C", "price": 300.0, "unit": "each" },
+            { "id": "ind-k1", "label": "K-1", "price": 125.0, "unit": "each" },
+            { "id": "ind-state-return", "label": "State Return", "price": 100.0, "unit": "each" }
+          ]
+        }
       ]
     },
     {
       "name": "Entities Tax Returns",
-      "items": [
-        { "id": "ent-1120s", "label": "S-Corp Return (1120-S)", "price": 850.0, "unit": "each" },
-        { "id": "ent-1065", "label": "Partnership Return (1065)", "price": 850.0, "unit": "each" },
-        { "id": "ent-1120", "label": "C-Corp Return (1120)", "price": 950.0, "unit": "each" },
-        { "id": "ent-additional-k1", "label": "Additional K-1 (entity)", "price": 125.0, "unit": "each" },
-        { "id": "ent-state-return", "label": "State Return (entity)", "price": 150.0, "unit": "each" }
+      "groups": [
+        {
+          "name": "Entities",
+          "items": [
+            { "id": "ent-1120s", "label": "S-Corp Return (1120-S)", "price": 850.0, "unit": "each" },
+            { "id": "ent-1065", "label": "Partnership Return (1065)", "price": 850.0, "unit": "each" },
+            { "id": "ent-1120", "label": "C-Corp Return (1120)", "price": 950.0, "unit": "each" },
+            { "id": "ent-additional-k1", "label": "Additional K-1 (entity)", "price": 125.0, "unit": "each" },
+            { "id": "ent-state-return", "label": "State Return (entity)", "price": 150.0, "unit": "each" }
+          ]
+        }
       ]
     },
     {
       "name": "Representation",
-      "items": [
-        { "id": "rep-base-fee", "label": "Representation (Base fee)", "price": 450.0, "unit": "each" },
-        { "id": "rep-hours", "label": "Representation (Hours)", "price": 250.0, "unit": "hour" },
+      "groups": [
         {
-          "id": "abatement-success-fee",
-          "label": "Abatement case only: Penalties abated (enter $ amount) — success fee = 25% at rep discretion",
-          "price": 0.25,
-          "unit": "dollars"
+          "name": "Tax Representation",
+          "items": [
+            { "id": "rep-base-fee", "label": "Representation (Base fee)", "price": 450.0, "unit": "each" },
+            { "id": "rep-hours", "label": "Representation (Hours)", "price": 250.0, "unit": "hour" },
+            {
+              "id": "abatement-success-fee",
+              "label": "Abatement case only: Penalties abated (enter $ amount) — success fee = 25% at rep discretion",
+              "price": 0.25,
+              "unit": "dollars"
+            }
+          ]
         }
       ]
     }
