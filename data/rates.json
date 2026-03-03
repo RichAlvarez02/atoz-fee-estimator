@@ -1,49 +1,34 @@
 {
-  "categories": [
+  "groups": [
     {
       "name": "Individual Tax Return",
-      "groups": [
-        {
-          "name": "Individual",
-          "items": [
-            { "id": "ind-1040-base", "label": "1040 Base Return", "price": 250.0, "unit": "each" },
-            { "id": "ind-schedule-c", "label": "Schedule C", "price": 300.0, "unit": "each" },
-            { "id": "ind-k1", "label": "K-1", "price": 125.0, "unit": "each" },
-            { "id": "ind-state-return", "label": "State Return", "price": 100.0, "unit": "each" }
-          ]
-        }
+      "items": [
+        { "id": "ind-1040-base", "label": "1040 Base Return", "price": 250.0, "unit": "each" },
+        { "id": "ind-schedule-c", "label": "Schedule C", "price": 300.0, "unit": "each" },
+        { "id": "ind-k1", "label": "K-1", "price": 125.0, "unit": "each" },
+        { "id": "ind-state-return", "label": "State Return", "price": 100.0, "unit": "each" }
       ]
     },
     {
       "name": "Entities Tax Returns",
-      "groups": [
-        {
-          "name": "Entities",
-          "items": [
-            { "id": "ent-1120s", "label": "S-Corp Return (1120-S)", "price": 850.0, "unit": "each" },
-            { "id": "ent-1065", "label": "Partnership Return (1065)", "price": 850.0, "unit": "each" },
-            { "id": "ent-1120", "label": "C-Corp Return (1120)", "price": 950.0, "unit": "each" },
-            { "id": "ent-additional-k1", "label": "Additional K-1 (entity)", "price": 125.0, "unit": "each" },
-            { "id": "ent-state-return", "label": "State Return (entity)", "price": 150.0, "unit": "each" }
-          ]
-        }
+      "items": [
+        { "id": "ent-1120s", "label": "S-Corp Return (1120-S)", "price": 850.0, "unit": "each" },
+        { "id": "ent-1065", "label": "Partnership Return (1065)", "price": 850.0, "unit": "each" },
+        { "id": "ent-1120", "label": "C-Corp Return (1120)", "price": 950.0, "unit": "each" },
+        { "id": "ent-additional-k1", "label": "Additional K-1 (entity)", "price": 125.0, "unit": "each" },
+        { "id": "ent-state-return", "label": "State Return (entity)", "price": 150.0, "unit": "each" }
       ]
     },
     {
       "name": "Representation",
-      "groups": [
+      "items": [
+        { "id": "rep-base-fee", "label": "Representation (Base fee)", "price": 450.0, "unit": "each" },
+        { "id": "rep-hours", "label": "Representation (Hours)", "price": 250.0, "unit": "hour" },
         {
-          "name": "Tax Representation",
-          "items": [
-            { "id": "rep-base-fee", "label": "Representation (Base fee)", "price": 450.0, "unit": "each" },
-            { "id": "rep-hours", "label": "Representation (Hours)", "price": 250.0, "unit": "hour" },
-            {
-              "id": "abatement-success-fee",
-              "label": "Abatement case only: Penalties abated (enter $ amount) — success fee = 25% at rep discretion",
-              "price": 0.25,
-              "unit": "dollars"
-            }
-          ]
+          "id": "abatement-success-fee",
+          "label": "Abatement case only: Penalties abated (enter $ amount) — success fee = 25% at rep discretion",
+          "price": 0.25,
+          "unit": "dollars"
         }
       ]
     }
@@ -54,8 +39,9 @@
     { "id": "adjust", "label": "Adjustment (+/-) (5%)", "rate": 0.05 }
   ],
   "notes": [
-    "All estimates are non-binding and may change based on complexity and completeness of records.",
-    "Do not submit sensitive info (SSN, full DOB, bank info) in the estimator.",
-    "Representation fees: $450 base + $250/hour. Abatement cases may include a success fee of 25% of penalties abated at representative discretion."
+    "All estimates are non-binding and subject to change based on complexity and completeness of records.",
+    "Do not submit sensitive information (SSN, full DOB, bank details) in this estimator.",
+    "Tax representation fees are $450 base plus $250 per hour. Time is billed in hourly increments. Final billing may vary based on actual work performed.",
+    "For penalty abatement cases, a success fee of up to 25% of penalties abated may apply at representative discretion."
   ]
 }
