@@ -2,6 +2,7 @@
   "categories": [
     {
       "name": "Individual Tax Return",
+      "disclaimer": "Foreign elements are additional and quoted separately based on the specific circumstances involved.",
       "groups": [
         {
           "name": "Individual",
@@ -90,10 +91,17 @@
     },
     {
       "name": "Entities Tax Returns",
+      "disclaimer": "Foreign elements are additional and quoted separately based on the specific circumstances involved.",
       "groups": [
         {
           "name": "Entities",
           "items": [
+            {
+              "id": "ent-zero-inactive",
+              "label": "Any entity in ZERO (inactive, no numbers) — Select One",
+              "price": 395.0,
+              "unit": "each"
+            },
             {
               "id": "ent-1120s",
               "label": "S-Corp Return (1120-S) — Starts at $995 — Select One",
@@ -163,12 +171,6 @@
               "label": "Additional Representation Hours",
               "price": 250.0,
               "unit": "hour"
-            },
-            {
-              "id": "abatement-success-fee",
-              "label": "Penalty Abatement (Enter penalties abated — 25% success fee may apply at representative discretion)",
-              "price": 0.25,
-              "unit": "dollars"
             }
           ]
         }
@@ -181,10 +183,9 @@
     { "id": "adjust", "label": "Adjustment (+/-) (5%)", "rate": 0.05 }
   ],
   "notes": [
-    "All estimates are non-binding and subject to change based on complexity, completeness of records, and final review.",
+    "All estimates are non-binding and subject to change based on complexity and final review.",
     "Select one base return type for individual or entity filings.",
     "Entity base returns start at $995. Additional schedules and complexity may increase fees.",
-    "Tax representation fees are $450 base plus $250 per hour. Time is billed in hourly increments. Final billing may vary based on actual work performed.",
-    "For penalty abatement matters, a success fee of up to 25% of penalties abated may apply at representative discretion."
+    "Tax representation fees are $450 base plus $250 per hour."
   ]
 }
