@@ -19,6 +19,12 @@
               "unit": "each"
             },
             {
+              "id": "ind-schedule-a",
+              "label": "Schedule A — Select One",
+              "price": 80.0,
+              "unit": "each"
+            },
+            {
               "id": "ind-schedule-c",
               "label": "Schedule C",
               "price": 300.0,
@@ -34,6 +40,18 @@
               "id": "ind-k1",
               "label": "K-1",
               "price": 125.0,
+              "unit": "each"
+            },
+            {
+              "id": "ind-sale-of-home",
+              "label": "Sale of Home",
+              "price": 350.0,
+              "unit": "each"
+            },
+            {
+              "id": "ind-sale-of-real-estate-not-home",
+              "label": "Sale of real estate (not home you live in)",
+              "price": 450.0,
               "unit": "each"
             },
             {
@@ -61,8 +79,8 @@
               "unit": "each"
             },
             {
-              "id": "ind-state-return",
-              "label": "State Return",
+              "id": "ind-addl-state-returns",
+              "label": "Additional state returns needed (first one included)",
               "price": 100.0,
               "unit": "each"
             }
@@ -101,14 +119,26 @@
               "unit": "each"
             },
             {
+              "id": "ent-rental-8825",
+              "label": "Rental Property (Form 8825)",
+              "price": 150.0,
+              "unit": "each"
+            },
+            {
+              "id": "ent-sale-asset-4797",
+              "label": "Sale of Asset (Form 4797)",
+              "price": 450.0,
+              "unit": "each"
+            },
+            {
               "id": "ent-additional-k1",
               "label": "Additional K-1 (entity)",
               "price": 125.0,
               "unit": "each"
             },
             {
-              "id": "ent-state-return",
-              "label": "State Return (entity)",
+              "id": "ent-addl-state-returns",
+              "label": "Additional state returns (1st one included)",
               "price": 150.0,
               "unit": "each"
             }
